@@ -43,11 +43,17 @@ Replace ``[example_name]`` with the name of the example you want to run. The ava
 - [spheres](examples/spheres.ts)
 - [snake](examples/snake.ts)
 
+https://github.com/igricrbx/keychron-rgb/assets/114947694/1132bab7-22fd-4556-82ee-16084c1b98fb
+
+https://github.com/igricrbx/keychron-rgb/assets/114947694/6154ff05-a556-4369-a8ee-7965159a1713
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please make sure 
+
+to update tests as appropriate.
 
 ## License
 
