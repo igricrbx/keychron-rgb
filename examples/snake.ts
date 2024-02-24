@@ -85,23 +85,10 @@ async function main() {
             Strip[food] = { r: 170, g: 90, b: 0 };
         }
 
-        await keyboard.setStrip(Strip);
-
         const head = snake[0];
         let newHead = getNewHead(head);
 
-        if (newHead === -1 || newHead < 0 || newHead >= 108 || snake.includes(newHead)) {
-            Strip.fill({ r: 255, g: 0, b: 0 });
-            await keyboard.setStrip(Strip);
-
-            await new Promise(resolve => setTimeout(resolve, 2000));
-
-            snake = [65];
-            foods = [48, 80];
-            snakeDirection = { x: 1, y: 0 };
-        }
-
-        snake.unshift(newHead);
+        await keyboard.setStrip(Strip);
 
         if (foods.includes(newHead)) {
             foods.splice(foods.indexOf(newHead), 1);
@@ -125,6 +112,19 @@ async function main() {
         }
 
         await new Promise(resolve => setTimeout(resolve, 300));
+
+        if (newHead === -1 || newHead < 0 || newHead >= 108 || snake.includes(newHead)) {
+            Strip.fill({ r: 255, g: 0, b: 0 });
+            await keyboard.setStrip(Strip);
+
+            await new Promise(resolve => setTimeout(resolve, 2000));
+
+            snake = [65];
+            foods = [48, 80];
+            snakeDirection = { x: 1, y: 0 };
+        }
+
+        snake.unshift(newHead);
     }
 }
 
