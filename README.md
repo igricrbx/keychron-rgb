@@ -1,30 +1,47 @@
 # KeychronRGB
 
-This is a TypeScript project named KeychronRGB.
+KeychronRGB is a TypeScript library that allows you to control the RGB lighting on Keychron K10 Pro keyboards.
 
 ## Installation
 
-To install the dependencies, run the following command:
+Before you can use this library, you need to install its dependencies. You can do this by running the following command in your terminal:
 
-```
+```sh
 npm install
 ```
 
 ## Usage
 
-To run this project, use the following command:
+To use this library, import the ``Keychron`` class from the ``src/keychron.ts`` file in your TypeScript code:
+
+```ts
+import * as Keychron from '../src/keychron';
+```
+
+Then, you can create a new ``Keychon.Keychron`` object and use its methods to control the RGB lighting on your keyboard.
+
+## Building
+
+To build the library, use the following command:
 
 ```
-npm start
+npm build
 ```
 
-## Testing
+This will generate JavaScript files in the ``dist`` directory.
 
-To run the tests, use the following command:
+## Examples
 
-```
+This library includes several examples that demonstrate how to use it. You can run these examples with the following command:
+
+```sh
 npm run example-[example_name]
 ```
+Replace ``[example_name]`` with the name of the example you want to run. The available examples are:
+- [colorfill](examples/colorfill.ts)
+- [rainbowstripes](examples/rainbowstripes.ts)
+- [spheres](examples/spheres.ts)
+- [snake](examples/snake.ts)
 
 ## Contributing
 
