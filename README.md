@@ -38,10 +38,18 @@ Replace ``[example_name]`` with the name of the example you want to run. The ava
 - [snake](examples/snake.ts)
 
 Sphares
-https://github.com/igricrbx/keychron-rgb/assets/114947694/e413b8f0-f1a2-42d8-9fc0-7e45e358c35a
+
+
+https://github.com/igricrbx/keychron-rgb/assets/114947694/d6b1678c-1732-4057-86bb-8eddbe5a5847
+
+
 
 Snake (Can your gaming keyboard do THAT?)
-https://github.com/igricrbx/keychron-rgb/assets/114947694/c41280bb-c3c6-4cfd-b8a6-a37de36339da
+
+
+https://github.com/igricrbx/keychron-rgb/assets/114947694/1c6808a9-abfa-4743-8051-e3c22a01e92b
+
+
 
 ## Contributing
 
