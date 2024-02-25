@@ -1,4 +1,4 @@
-![KeychronRGB](https://github.com/igricrbx/keychron-rgb/assets/114947694/bdb412a1-765f-4f61-a161-bb2572b722ba)
+![KeychronRGB](https://github.com/igricrbx/keychron-rgb/assets/114947694/3b395991-9cc1-4d01-95cd-8d77b82cc4f7)
 # KeychronRGB
 
 A simple TypeScript library which allows you to control the RGB lighting on the [Keychron K10 Pro](https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard) keyboard.
