@@ -22,23 +22,29 @@ const spheres: Sphere[] = [
     {
         center: {x: 18, y: 3},
         radius: 1,
-        velocity: {x: 0.16, y: 0.13},
+        velocity: {x: -0.16, y: 0.13},
         color: {r: 0, g: 255, b: 0},
     },
     {
         center: {x: 7, y: 3},
         radius: 1,
-        velocity: {x: 0.13, y: 0.14},
+        velocity: {x: 0.13, y: -0.14},
         color: {r: 0, g: 0, b: 255},
     },
     {
         center: {x: 14, y: 3},
         radius: 1,
-        velocity: {x: 0.16, y: 0.13},
+        velocity: {x: -0.16, y: -0.13},
         color: {r: 255, g: 0, b: 0},
     }
 ];
 
+// Makes sure we release the keyboard when the process is interrupted
+process.on('SIGINT', () => {
+    keyboard.setKeyboardMode();
+
+    process.exit();
+});
 
 async function main() {
     await keyboard.setDirectMode();
@@ -97,11 +103,5 @@ async function main() {
         await new Promise(resolve => setTimeout(resolve, 10));
     }
 }
-
-process.on('SIGINT', () => {
-    keyboard.setKeyboardMode();
-
-    process.exit();
-});
 
 main();
