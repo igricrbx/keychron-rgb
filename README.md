@@ -1,3 +1,4 @@
+![KeychronRGB](https://github.com/igricrbx/keychron-rgb/assets/114947694/bdb412a1-765f-4f61-a161-bb2572b722ba)
 # KeychronRGB
 
 A simple TypeScript library which allows you to control the RGB lighting on the [Keychron K10 Pro](https://www.keychron.com/products/keychron-k10-pro-qmk-via-wireless-mechanical-keyboard) keyboard.
@@ -36,11 +37,11 @@ Replace ``[example_name]`` with the name of the example you want to run. The ava
 - [spheres](examples/spheres.ts)
 - [snake](examples/snake.ts)
 
-Colorfill
-https://github.com/igricrbx/keychron-rgb/assets/114947694/1132bab7-22fd-4556-82ee-16084c1b98fb
+Sphares
+![Sphares](https://github.com/igricrbx/keychron-rgb/assets/114947694/1132bab7-22fd-4556-82ee-16084c1b98fb)
 
 Snake (Can your gaming keyboard do THAT?)
-https://github.com/igricrbx/keychron-rgb/assets/114947694/6154ff05-a556-4369-a8ee-7965159a1713
+![Snake](https://github.com/igricrbx/keychron-rgb/assets/114947694/6154ff05-a556-4369-a8ee-7965159a1713)
 
 ## Contributing
 
